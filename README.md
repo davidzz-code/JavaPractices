@@ -4,7 +4,7 @@ Este repositorio almacena los ejercicios que iré practicando en Java
 
 ## Practica 1
 
-### Prepara un menú que seleccione la ejecución de los diferentes ejercicios que se piden a continuación. 
+Prepara un menú que seleccione la ejecución de los diferentes ejercicios que se piden a continuación. 
 
 - Este menú se debe realizar con un switch.
 - Crea un método para todos y cada uno de los siguientes ejercicios. El método debe incorporar el calificador de acceso "public static" y tener un nombre adecuado a lo que se solicita. 
