@@ -4,6 +4,10 @@ import java.util.*;
 public class MenuEjerciciosVarios {
     // Menú principal
     public static void main(String[] args) {
+        // Borra la terminal para que quede más legible
+        System.out.print("\033[H\033[2J");  
+        System.out.flush();
+
         System.out.println("Elige una opción del 1-9:");
         System.out.println("1) Números en orden \n2) Números en orden inverso \n3) Hacer media de números \n4) Contar carácteres \n5) Invertir texto \n6) Borrar espacios \n7) Unir frases \n8) Cambiar vocales \n9) Encontrar código ASCII");
         System.out.print("Elijo la opción: ");
@@ -12,25 +16,25 @@ public class MenuEjerciciosVarios {
         Scanner scan = new Scanner(System.in);
         int opcion = scan.nextInt();
 
+        // Borra la terminal 
+        System.out.print("\033[H\033[2J");  
+        System.out.flush();
+
         // Menú SWITCH con los diferentes casos para llamar a los distintos métodos
         switch (opcion) {
             case 1:
-                System.out.println();
                 leerNumeros();
                 break;
 
             case 2:
-                System.out.println();
                 ordenInverso();
                 break;
 
             case 3:
-                System.out.println();
                 hacerMedia();
                 break;
 
             case 4:
-                System.out.println();
                 System.out.print("Escribe una frase y contaré los carácteres: ");
 
                 // Crea input para guardar la frase
@@ -43,7 +47,6 @@ public class MenuEjerciciosVarios {
                 break;
                 
             case 5:
-                System.out.println();
                 System.out.print("Escribe una frase y le daré la vuelta: ");
                 
                 // Crea input para guardar la frase                
@@ -56,7 +59,6 @@ public class MenuEjerciciosVarios {
                 break;
 
             case 6:
-                System.out.println();
                 System.out.print("Escribe una frase y le quitaré los espacios en blanco: ");
 
                 // Crea input para guardar la frase  
@@ -69,7 +71,6 @@ public class MenuEjerciciosVarios {
                 break;
 
             case 7:
-                System.out.println();
                 System.out.println("Escribe dos frases y las juntaré");
 
                 // Crea inputs para guardar las dos frases
@@ -86,9 +87,8 @@ public class MenuEjerciciosVarios {
                 System.out.println("Las dos frases concatenadas son: '" + frasesUnidas + "'");
                 break;
             case 8:
-                System.out.println();
                 System.out.println("Dime una frase y una vocal, cambiaré todas las vocales por la que me digas.");
-
+                
                 // Crea input para guardar la frase
                 System.out.print("Escribe una frase: ");
                 Scanner scanFraseUser = new Scanner(System.in);
@@ -103,8 +103,6 @@ public class MenuEjerciciosVarios {
                 break;
 
             case 9:
-                System.out.println();
-                
                 // Crea inputs para guardar la frase
                 System.out.print("Dime una frase y te diré el código ASCII de cada carácter: ");
                 Scanner scanASCII = new Scanner(System.in);
