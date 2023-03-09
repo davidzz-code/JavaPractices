@@ -1,4 +1,4 @@
-package Abstractas;
+package Abstractas.Clase;
 
 import java.util.*;
 

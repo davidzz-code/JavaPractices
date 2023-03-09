@@ -1,4 +1,4 @@
-package Abstractas;
+package Abstractas.Clase;
 
 public abstract class Book {
     String title;

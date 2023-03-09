@@ -1,4 +1,4 @@
-package Internet.PersonaInternet;
+package Ejercicio_Internet.PersonaInternet;
 
 public class Persona {
     // Constantes
