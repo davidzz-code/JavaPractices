@@ -9,7 +9,7 @@ public class Amarre {
     }
 
     public Amarre(float tamaño, boolean ocupado, Barco barco) {
-        this.setId();
+        setId();
         this.tamaño = tamaño;
         this.ocupado = ocupado;
         this.barco = barco;

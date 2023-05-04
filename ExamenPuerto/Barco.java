@@ -1,7 +1,5 @@
 import java.util.ArrayList;
 
-import javax.swing.plaf.basic.BasicSplitPaneUI.BasicVerticalLayoutManager;
-
 public abstract class Barco {
     private String matricula;
     private String nombre;

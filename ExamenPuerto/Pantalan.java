@@ -10,7 +10,7 @@ public class Pantalan {
     }
 
     public Pantalan(ArrayList<Amarre> listaAmarre, String tipo) {
-        this.setId();
+        setId();
         this.listaAmarre = listaAmarre;
         this.setTipo(tipo);
     }
@@ -49,6 +49,6 @@ public class Pantalan {
 
     @Override
     public String toString() {
-        return "Pantalan [id=" + id + ", listaAmarre=" + listaAmarre + ", tipo=" + tipo + "]";
+        return "Pantalan [id=" + id + ", tipo=" + tipo;
     }
 }
